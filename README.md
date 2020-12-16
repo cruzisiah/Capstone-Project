@@ -21,7 +21,10 @@
 
 ## IV. Conclusion
 - **Big Takeaway:**
-I was able to perform a number of operations that I was able to carry over to a similar dataset for my company NewtonX. For one, I was able to select 4 categories from the Enron dataset to mirror the 4 labels present in the NewtonX dataset. In addition, both projects presented outliers when it came to the word length of certain emails that were exorbitantly long (i.e. 37K+ words). Therefore, I was able to use the IQR/outlier-removal tool that I built in the Enron project and directly apply it to the NewtonX one. Finally, both datasets presented a class imbalance, so I was able to use SMOTE to balance things out first on the Enron data and then on the NewtonX data. All in all, I was very intentional about devising the projects in a way that they mirrored each other and that this Enron project allowed me to take useful learnings to the NewtonX one.
+Throughout this project, I was able to perform a number of operations that I was able to carry over to a similar dataset for my company NewtonX. For one, the multi-class classification nature of each, means that I was able to select 4 categories from the Enron dataset to mirror the 4 labels present in the NewtonX dataset. In addition, both projects presented outliers when it came to the word length of certain emails that were exorbitantly long (i.e. 37K+ words). Therefore, I was able to use the IQR/outlier-removal tool that I built in the Enron project and directly apply it to the NewtonX one. Finally, both datasets presented a class imbalance, so I was able to use SMOTE to balance things out first on the Enron data and then on the NewtonX data. All in all, I was very intentional about devising the projects in a way that they mirrored each other and that this Enron project allowed me to take useful learnings to the NewtonX one.
 
-- **Next Step #1:** Use this model to label the 98K or so emails in our original Enron dataset that are unlabeled
-- **Next Step #2:** Create an auto-response tool that responds to emails according the what label they receive
+- **Next Step #1:**
+Use this model to label the 98K or so emails in our original Enron dataset that are unlabeled
+
+- **Next Step #2:**
+Apply learnings from this project to the NewtonX project to be able to build a multi-class classification model that predicts the label of a given email. We can then use this classifier model to label emails automatically and create an auto-response tool that responds to emails according the what label they receive.
